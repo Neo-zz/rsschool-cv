@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.container-aside {
+    flex-basis: 20%;
+    min-height: 100vh;
+    background-color: #333333;
+    padding-left: 25px;
+    
+    
+}   
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 40px auto;
+    display:block;
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 80%);
+    filter: grayscale(0.2) brightness(1.05);
+    /*margin: auto;*/
+}
+
+.section-contacts {
+    border-bottom: 1px solid #fff;;
+
+}
+
+.data {
+    padding: auto;
+}
+
+ul.section-list {
+    list-style-type: none;
+    color: #fff;
+    
+    
+    
+	}   
+
+ul.section-list li {
+    text-indent: -1.4em;
+    margin-bottom: 1em;
+	}
+
+ul.section-list li:before {
+    /*font-family: bullets;*/
+    content: "";    
+    float: left;
+    width: 1.4em;
+    }
+
+.container-main {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    /*background-color: blue;*/
+    min-height: 10vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+
+.link:hover {
+    color: #5d7260;
+  }
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+    text-transform: uppercase;
+  
+  }
+.section-item a:hover {
+    color: #4d2323;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
+}
+
+.main {
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border-bottom: 1px solid #672f2f;
+  }
+
+a {
+    text-decoration: none;
+    color: #333333;
+    transition: color .3s;
+}
+
+.link-contacts {
+    text-transform: none;
+}
+
+
+.container-footer {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-rss {
+    width: 130px;
+    height: 40px;
+    background-image: url(./rs_school_js.svg);
+    background-repeat: no-repeat;
+}
